@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-
+from publicidad import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^index/', include('publicidad.urls', namespace="index")),
+    url(r'^publicidad/', include('publicidad.urls', namespace="publicidad")),
+    url(r'^$', views.index, name="index"),    
 ]

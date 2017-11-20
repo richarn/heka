@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from publicidad.views import index
+from publicidad.views import index, hotel
 urlpatterns = [
-    url(r'^$', index, name="index"),
+    url(r'^$', hotel, name="hotel"),
 ]

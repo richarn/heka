@@ -1,5 +1,7 @@
 from django.conf.urls import url
-from publicidad.views import index, hotel, bodega, entretenimiento, santuario, restaurante,supermercado #se importan las funciones de las vistas
+from publicidad.views import index, hotel, bodega, entretenimiento, santuario, restaurante,supermercado, \
+publico, surtidor, bar
+#se importan las funciones de las vistas
 urlpatterns = [
     url(r'^$', index, name="index"),
     url(r'^hotel', hotel, name="hotel"),
@@ -8,4 +10,7 @@ urlpatterns = [
     url(r'^santuario/', santuario, name="santuario"),
     url(r'^restaurante/', restaurante, name="restaurante"),    
     url(r'^supermercado/', supermercado, name="supermercado"),
+    url(r'^publico/', publico, name="publico"),
+    url(r'^surtidor/', surtidor, name="surtidor"),
+    url(r'^bar/', bar, name="bar"),
 ]

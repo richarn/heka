@@ -22,3 +22,12 @@ def restaurante(request):
 
 def supermercado(request):
 	return render(request, 'publicidad/supermercado.html')	
+
+def publico(request):
+	return render(request,'publicidad/publicos.html')
+
+def surtidor(request):
+	return render(request, 'publicidad/surtidor.html')
+
+def bar(request):
+	return render(request, 'publicidad/baresYdiscotecas.html')

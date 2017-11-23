@@ -31,3 +31,12 @@ def surtidor(request):
 
 def bar(request):
 	return render(request, 'publicidad/baresYdiscotecas.html')
+
+def altagracia(request):
+	return render(request, 'publicidad/hoteles/altagracia.html')
+
+def sanvicente(request):
+	return render(request, 'publicidad/supermercados/sanvicente1.html')	
+
+def churrasqueria_b(request):
+	return render(request, 'publicidad/restaurantes/churrasqueria_b.html')	

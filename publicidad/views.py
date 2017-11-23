@@ -39,4 +39,19 @@ def sanvicente(request):
 	return render(request, 'publicidad/supermercados/sanvicente1.html')	
 
 def churrasqueria_b(request):
-	return render(request, 'publicidad/restaurantes/churrasqueria_b.html')	
+	return render(request, 'publicidad/restaurantes/churrasqueria_b.html')
+
+def plazaTtefarina(request):
+	return render(request, 'publicidad/sector_publico/plazaTteFarina.html')
+
+def petropar(request):
+	return render(request, 'publicidad/surtidor/petropar.html')
+
+def brothers(request):
+	return render(request, 'publicidad/baresYdiscotecas/brothers.html')
+
+def santo_tomas(request):
+	return render(request, 'publicidad/bodegas/Santo_Tomas.html')
+
+def bacilica_caacupe(request):
+	return render(request, 'publicidad/santuarios/bacilica_caacupe.html')			
